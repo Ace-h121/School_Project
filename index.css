@@ -1,0 +1,86 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body  {
+    margin:0 ;
+    /* bottom = footer height */
+    background-image:url("background.jpg")
+}
+
+body .container{
+     margin: 2%;
+     margin-left: 15%;
+     margin-right: 15%
+    
+}
+
+
+footer{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    bottom:0;
+    height:110px;
+    
+}
+
+
+.rahh {
+width: 100px;
+height: 100px;
+background-color: #0cb2c400;
+animation-name: spin;
+animation-duration: 5000ms;
+animation-iteration-count: infinite;
+animation-timing-function: linear; 
+/* transform: rotate(3deg); */
+ /* transform: rotate(0.3rad);/ */
+ /* transform: rotate(3grad); */ 
+ /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.rahh img{
+    height: 100%;
+}
+
+
+
+
+.buttons{
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display:flex;
+
+}
+
+.buttons a{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin-right: 5%;
+    margin-top:1%;
+    margin-left:5%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15%;
+    width: 15%;
+    height: 20%;
+    margin-bottom: 1%;
+
+}
+
+.container{
+    padding: 2%;
+
+    margin: 2%;
+    background-color: rgb(255, 255, 255);
+    box-shadow:#0cb2c400;
+}
